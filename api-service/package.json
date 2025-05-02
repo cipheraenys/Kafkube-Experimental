@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-mahasiswa",
+  "version": "1.0.0",
+  "description": "REST API for Mahasiswa Data with Kafka Producer",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
